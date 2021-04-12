@@ -25,6 +25,14 @@
             "Form1",
             "Form1.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "plantDirectory",
+            "plantDirectory.json"
+          ]
         }
       ],
       "configxml": null,
