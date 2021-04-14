@@ -14,19 +14,19 @@
       "!type": "External",
       "file": [
         "forms",
-        "Form1",
+        "calendar",
         "Elements",
-        "Button1.json"
+        "Scheduler1.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 600,
+  "designWidth": 600,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "HomePage",
+  "id": "calendar",
   "language": "JavaScript",
   "left": "0",
   "locked": false,

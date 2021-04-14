@@ -10,7 +10,6 @@
       "PWA_Manifest": null,
       "androidAlias": "key0",
       "androidAliasPassword": "mypassword",
-      "androidDname": "cn=myname, ou=mygroup, o=mycompany, c=mycountry",
       "androidKeystore": "certificates/android.p12",
       "androidKeystorePassword": "mypassword",
       "background": "",
@@ -23,24 +22,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "PlantLogin",
-            "PlantLogin.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "createUser",
-            "createUser.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "HomePage",
-            "HomePage.json"
+            "Form1",
+            "Form1.json"
           ]
         },
         {
@@ -57,6 +40,14 @@
             "forms",
             "Succulent",
             "Succulent.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "calendar",
+            "calendar.json"
           ]
         }
       ],
@@ -79,7 +70,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "PlantLogin",
+      "firstform": "Form1",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
