@@ -1,8 +1,3 @@
-let query = ""
-let req = {}
-let netID = "kla96587"
-let pw = "Chichi101!!!"
-
 moneyPlant.onshow=function(){
      query = "SELECT type, size, light, indoor_outdoor, frequency  FROM plant WHERE plant_id = 9"
     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=375groupa6&query=" + query);
@@ -11,7 +6,7 @@ moneyPlant.onshow=function(){
         results = JSON.parse(req.responseText)
         console.log(`The results are \n ${results}`)
         if (results.length == 0)
-            txtaMoneyPlant.value = "There are no customers in the database."
+            txtaMoneyPlant.value = "There are no plants in the database."
         else {
             let message = ""
             for (i = 0; i < results.length; i++)

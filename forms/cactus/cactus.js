@@ -1,8 +1,3 @@
-let query = ""
-let req = {}
-let netID = "kla96587"
-let pw = "Chichi101!!!"
-
 cactus.onshow=function(){
      query = "SELECT type, size, light, indoor_outdoor, frequency  FROM plant WHERE plant_id = 2"
     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=375groupa6&query=" + query);
