@@ -54,6 +54,15 @@
         "Elements",
         "btnDirectory.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "HomePage",
+        "Elements",
+        "lblHeader.json"
+      ]
     }
   ],
   "class": "",
